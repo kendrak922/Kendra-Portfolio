@@ -6,20 +6,20 @@ html {
 body {
   margin: 0;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
+// article,
+// aside,
+// details,
+// figcaption,
+// figure,
+// footer,
+// header,
+// main,
+// menu,
+// nav,
+// section,
+// summary {
+//   display: block;
+// }
 audio,
 canvas,
 progress,
@@ -82,9 +82,9 @@ sub {
 sup {
   top: -.5em;
 }
-img {
-  border-style: none;
-}
+// img {
+//   border-style: none;
+// }
 svg:not(:root) {
   overflow: hidden;
 }
@@ -187,15 +187,15 @@ html {
   box-sizing: border-box;
   overflow-y: scroll;
 }
-* {
-  box-sizing: inherit;
-}
-*:before {
-  box-sizing: inherit;
-}
-*:after {
-  box-sizing: inherit;
-}
+// * {
+//   box-sizing: inherit;
+// }
+// *:before {
+//   box-sizing: inherit;
+// }
+// *:after {
+//   box-sizing: inherit;
+// }
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
@@ -617,8 +617,78 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+$tan: #D8BD8A;
+$cream: #D8D78F;
+$pink: #AA5042;
+$green: #87A330;
+$taupe: #4B3831;
+
+body{
+  background-color: $tan;
+  color: $taupe;
+  font-family: 'Fjalla One', sans-serif;
+}
+.background{
+  background-color:$green;
+  height:500px;
+  h1{
+    // color:$tan;
+    text-align:center;
+    font-size: 8em;
+    padding: 30px;
+    padding-top: 300px;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  p{
+  text-align: center;
+  // color:$tan;
+  font-size:2em;
+  font-family: 'Fjalla One', sans-serif;
+  }
+}
+.background2{
+background-color:none;
+height:250px;
+}
+.imgcontainer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  // border: red solid 1px;
+
+.green{
+  background-color: $pink;
+  height:400px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 400px;
+}
+ img{
+   width: 400px;
+   height: auto;
+   margin-top: -600px;
+   margin-left: 200px;
+   margin-bottom: 100px;
+}
+p{
+  align-self: flex-end;
+  height: auto;
+  margin: 3em;
+  width: 400px;
+  // color: $tan;
+  margin-top: -400px;
+  margin-right:200px;
+}
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+
+.imgcontainer{
+  flex-direction: row;
+}
 }

@@ -6,6 +6,8 @@ import Header from '../components/Header'
 
 import './index.scss'
 
+
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet

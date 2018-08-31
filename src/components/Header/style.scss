@@ -1,12 +1,37 @@
-// D8BD8A
-// D8D78F
-// AA5042
-// 87A330
-// 4B3831
+$tan: #D8BD8A;
+$cream: #D8D78F;
+$pink: #AA5042;
+$green: #87A330;
+$taupe: #4B3831;
 
-.landing{
+.nav{
 margin: 0 auto;
-height: 800px;
-max-width: 960;
-background-color: blue;
+background-color:none;
+float:right;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 150px;
+border: 1px red solid;
+justify-content: flex-end;
+p{
+    margin: 2em;
+}
+
+}
+
+img{
+height:75px;
+width: 75px;
+border: 1px red solid;
+margin: 2em;
+}
+
+.link{
+  text-decoration:none;
+  font-size: 15px;  
+  color: $taupe;
+  margin: 2em;
+  border-bottom: 1px $taupe solid;
+
 }

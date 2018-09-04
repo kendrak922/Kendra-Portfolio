@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
+import Toggle from './ToggleRPC'
 import Header from '../components/Header'
 
 import './index.scss'
@@ -17,7 +17,18 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Toggle>
+      {({on, toggle})=>(
+        <div>
+          {on && <Header />}
+        <div onClick ={toggle} className="expand">
+        <p>Menu</p>
+        </div>
+        </div>
+      )}
+    </Toggle> */}
+    <Header />
+  
     <div>
       {children()}
     </div>

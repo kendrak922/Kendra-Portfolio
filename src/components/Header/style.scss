@@ -6,32 +6,30 @@ $taupe: #4B3831;
 
 .nav{
 margin: 0 auto;
-background-color:none;
+margin-right: 20px;
 float:right;
 display:flex;
 flex-direction: column;
 flex-wrap: wrap;
-width: 150px;
-border: 1px red solid;
-justify-content: flex-end;
+width: 100px;
+justify-content: center;
+align-items: center;
 p{
-    margin: 2em;
+margin-top:-20px;
+text-align:center;
 }
-
 }
 
 img{
 height:75px;
 width: 75px;
-border: 1px red solid;
-margin: 2em;
 }
 
 .link{
   text-decoration:none;
-  font-size: 15px;  
+  font-size: 15px; 
   color: $taupe;
-  margin: 2em;
+  margin: 1em;
   border-bottom: 1px $taupe solid;
-
+text-align: center;
 }

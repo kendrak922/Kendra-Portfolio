@@ -20,11 +20,11 @@ import icon from '../../images/icon.png'
 
   render() {
     return (
-      <div>
+      <div className="nav">
           <img src={icon} alt="icon" />
           <p onClick={this.toggle}>Menu</p>
         {this.state.on && (
-          <div>
+          <div clasName="links">
           <Link className="link" to="/">Home</Link>
           <Link className="link" to="/page-2/">Writing</Link>
           <Link className="link" to="#">Company</Link>

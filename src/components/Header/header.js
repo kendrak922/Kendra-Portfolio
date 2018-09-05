@@ -15,12 +15,27 @@ import icon from '../../images/icon.png'
     this.setState({
       on: !this.state.on
     })
+  
+    $(window).scroll(function() {scrollFunction()} )
 
+    
+    let navbar = document.getElementById("navbar");
+    let sticky = navbar.offsetTop;
+    
+    function scrollFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } 
+      else {
+        navbar.classList.remove("sticky");
+ 
+    }
   }
+}
 
   render() {
     return (
-      <div className="nav">
+      <div className="nav" id="navbar">
           <img src={icon} alt="icon" />
           <p onClick={this.toggle}>Menu</p>
         {this.state.on && (

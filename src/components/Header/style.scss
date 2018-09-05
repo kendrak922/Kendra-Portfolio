@@ -38,3 +38,14 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  }
+//  .link:before
+// {
+//   transform: scale(1.2);
+// } 
+

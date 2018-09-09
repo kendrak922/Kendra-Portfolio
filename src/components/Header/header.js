@@ -18,7 +18,7 @@ import icon from '../../images/icon.png'
   
     $(window).scroll(function() {scrollFunction()} )
 
-    
+
     let navbar = document.getElementById("navbar");
     let sticky = navbar.offsetTop;
     
@@ -39,7 +39,7 @@ import icon from '../../images/icon.png'
           <img src={icon} alt="icon" />
           <p onClick={this.toggle}>Menu</p>
         {this.state.on && (
-          <div clasName="links">
+          <div className="links">
           <Link className="link" to="/">Home</Link>
           <Link className="link" to="/page-2/">Writing</Link>
           <Link className="link" to="#">Company</Link>

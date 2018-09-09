@@ -605,24 +605,25 @@ pre tt:after {
 
 
 //global styles
-$tan: #D8BD8A;
-$cream: #D8D78F;
-$pink: #AA5042;
-$green: #87A330;
-$taupe: #4B3831;
+$tan: #FFF275;
+$cream: #98B06F;
+$pink: #A23E48;
+$green: #726E60;
+$taupe: #442B48;
 
 html{
   font-family: 'Fjalla One', sans-serif;
 }
 body{
-  background-color: $tan;
-  color: $taupe;
+  background-color: $cream;
+  color: $green;
+  font-family: 'Fjalla One', sans-serif;
  
 }
 
 //landing page
 .background{
-  background-color:$green;
+  background-color:$tan;
   height:500px;
   h1{
     // color:$tan;
@@ -652,7 +653,6 @@ height:250px;
   flex-direction: column;
   width: 100%;
   height: auto;
-  // border: red solid 1px;
 
 .green{
   background-color: $pink;

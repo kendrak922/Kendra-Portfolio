@@ -17,18 +17,8 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-      {/* <Toggle>
-      {({on, toggle})=>(
-        <div>
-          {on && <Header />}
-        <div onClick ={toggle} className="expand">
-        <p>Menu</p>
-        </div>
-        </div>
-      )}
-    </Toggle> */}
-    <Header />
   
+    <Header />
     <div>
       {children()}
     </div>

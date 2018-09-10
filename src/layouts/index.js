@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Toggle from './ToggleRPC'
 import Header from '../components/Header'
+import Sticky from 'react-stickynode';
 
 import './index.scss'
 
@@ -17,8 +18,9 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-  
+    <Sticky>
     <Header />
+    </Sticky>
     <div>
       {children()}
     </div>

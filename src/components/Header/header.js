@@ -3,10 +3,11 @@ import Link from 'gatsby-link'
 import React, { Component } from 'react'
 import './style.scss';
 
+
 import icon from '../../images/icon.png'
 
 
- class Header extends Component {
+class Header extends Component {
   state = {
     on: false,
   }
@@ -15,40 +16,27 @@ import icon from '../../images/icon.png'
     this.setState({
       on: !this.state.on
     })
-  
-    $(window).scroll(function() {scrollFunction()} )
 
-
-    let navbar = document.getElementById("navbar");
-    let sticky = navbar.offsetTop;
-    
-    function scrollFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } 
-      else {
-        navbar.classList.remove("sticky");
- 
-    }
   }
-}
 
   render() {
     return (
-      <div className="nav" id="navbar">
-          <img src={icon} alt="icon" />
-          <p onClick={this.toggle}>Menu</p>
-        {this.state.on && (
-          <div className="links">
-          <Link className="link" to="/">Home</Link>
-          <Link className="link" to="/page-2/">Writing</Link>
-          <Link className="link" to="#">Company</Link>
-          </div>
-        )}
+              
+            <div  className="nav" id="navbar">
+              <img src={icon} alt="icon" />
+              <p onClick={this.toggle}>Menu</p>
+              {this.state.on && (
+                <div className="links">
+                  <Link className="link" to="/">Home</Link>
+                  <Link className="link" to="/page-2/">Writing</Link>
+                  <Link className="link" to="#">Company</Link>
+                </div>
+              )}
       </div>
-    )
-  }
-}
+          );
+      
+  }  }
+
 
 
 export default Header;

@@ -58,10 +58,6 @@ strong {
 dfn {
   font-style: italic;
 }
-h1 {
-  font-size: 2em;
-  margin: .67em 0;
-}
 mark {
   background-color: #ff0;
   color: #000;
@@ -212,21 +208,7 @@ html {
 //   padding-top: 0;
 //   margin-bottom: 1.45rem;
 // // }
-h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
-  line-height: 1.1;
-}
+
 h2 {
   margin-left: 0;
   margin-right: 0;
@@ -612,38 +594,35 @@ $green: #403F4C;
 $taupe:#FEFCAD;
 #FFF275
 html{
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Londrina Solid', cursive;
 }
 body{
   background-color: $cream;
   color: $green;
-  font-family: 'Fjalla One', sans-serif;
- 
+  font-family: 'Londrina Solid', cursive;
+  margin: 0 auto;
 }
 
 //landing page
 .background{
   background-color:$tan;
   height:500px;
-  h1{
-    // color:$tan;
+  .title{
     text-align:center;
     font-size: 8em;
     padding: 20px;
     padding-top: 300px;
-    font-family: 'Fjalla One', sans-serif;
     margin-bottom: 2.2rem;
   }
   h2{
   text-align: center;
   // color:$tan;
   font-size:2em;
-  font-family: 'Fjalla One', sans-serif;
   }
 }
 .background2{
 background-color:none;
-height:250px;
+height:150px;
 }
 
 //about me
@@ -676,6 +655,7 @@ p{
   // color: $tan;
   margin-top: -400px;
   margin-right:200px;
+  font-size: 25px;
 }
 }
 

@@ -15,7 +15,7 @@ class IndexPage extends Component {
 return (
     <div className="IndexPage">
       <div className="background">
-        <h1>It's me, Kendra.</h1>
+        <h1 className="title">It's me, Kendra.</h1>
         <h2>Full Stack Web Developer</h2>
       </div>
       <div className="background2"></div>

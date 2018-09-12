@@ -1,14 +1,15 @@
-.wrapper{
-    height: 500px;;
-     width: 100%;
+.workContainer{
     display: flex;
     flex-direction: row wrap;
-    padding: 20px;
-    justify-content: space-around;
+    // padding: 20px;
+    // justify-content: space-around;
+    margin-top: 300px;
     align-content: flex-start;
-    padding:0;
+    border: red solid 1px;
+    padding: 10px;
 }
 h1{
  text-align: center;
  font-size: 70px;
+ flex: 1;
 }

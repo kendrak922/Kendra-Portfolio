@@ -9,7 +9,7 @@ const Projects = props => (
 <div>
 <div className="container">
 <div className="work">
-<img className="pic" src={picture} alt={props.image} />
+<img className="pic" src={props.image} alt={props.image} />
 <p>{props.title}</p>
 </div>
 </div>

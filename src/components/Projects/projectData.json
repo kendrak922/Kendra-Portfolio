@@ -3,14 +3,14 @@
    {
        "id":1,
        "title": "Chill Time Trivia",
-       "image":"../../images/car.jpg",
+       "image":"../images/car.jpg",
        "link": "https://octopied.herokuapp.com/game",
        "github":"https://github.com/kendrak922/Octopied"
    },
    {
     "id":2,
     "title": "Octopied",
-    "image":"../../images/cat.jpg",
+    "image":"../images/cat.jpg",
     "link": "https://octopied.herokuapp.com/game",
     "github":"https://github.com/kendrak922/Octopied"
 }

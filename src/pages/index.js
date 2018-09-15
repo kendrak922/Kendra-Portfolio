@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Projects from '../components/Projects'
 import Wrapper from '../components/Wrapper'
 import work from "../../../Kendra-Portfolio/src/components/Projects/projectData.json";
-import face from '../images/face.jpg'
+import face from '../../public/images/face.jpg'
 
 class IndexPage extends Component {
 

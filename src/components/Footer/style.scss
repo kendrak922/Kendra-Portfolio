@@ -1,0 +1,36 @@
+$tan: #BFAB25;
+$cream: #A4B494;
+$pink: #F9DEC9;
+$green:#54494B;
+$taupe:#3A405A;
+
+
+.footer{
+    text-align: center;
+    background-color: $pink;
+    height: auto;
+}
+
+.social-media{
+    align-self: center;
+
+   .social-media-link{
+       margin:5px;
+
+       i{
+        padding:9px 10px 10px 10px;
+        background-color:$pink;
+        width:35px;
+        height:20px;
+        margin:0 auto;
+        color:$green;
+        margin-bottom:4px;
+        border-radius: 50%;
+       }
+       i:hover{
+           background-color:$tan;
+           transform: scale(1.1);
+           transition:.15s;
+       }
+   }
+}

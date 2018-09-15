@@ -4,6 +4,7 @@ import Projects from '../components/Projects'
 import Wrapper from '../components/Wrapper'
 import work from "../../../Kendra-Portfolio/src/components/Projects/projectData.json";
 import face from '../../public/images/face.jpg'
+import Footer from '../components/Footer';
 
 class IndexPage extends Component {
 
@@ -35,6 +36,7 @@ return (
         )
         }
       </Wrapper>
+      <Footer />
     </div> 
     );
   }

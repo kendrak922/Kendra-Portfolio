@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import './style.scss';
 
 
-import icon from '../../images/icon.png'
+import icon from '../../../public/images/icon.png'
 
 
 class Header extends Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.scss";
-import picture from "../../images/car.jpg"
+
 
 
 

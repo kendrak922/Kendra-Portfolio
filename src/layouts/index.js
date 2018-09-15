@@ -1,9 +1,10 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Toggle from './ToggleRPC'
-import Header from '../components/Header'
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Toggle from './ToggleRPC';
+import Header from '../components/Header';
 import Sticky from 'react-stickynode';
+
 
 import './index.scss'
 
@@ -21,6 +22,7 @@ const Layout = ({ children, data }) => (
     <Sticky>
     <Header />
     </Sticky>
+  
     <div>
       {children()}
     </div>
